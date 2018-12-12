@@ -1,0 +1,14 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SolutionTest {
+
+	@Test
+	void testReplaceSpace() {
+		Solution resultStr = new Solution();
+		String inputStr = "My name is Sriranjani";
+		assertEquals("My%20name%20is%20Sriranjani", resultStr.replaceSpace(inputStr));
+	}
+
+}

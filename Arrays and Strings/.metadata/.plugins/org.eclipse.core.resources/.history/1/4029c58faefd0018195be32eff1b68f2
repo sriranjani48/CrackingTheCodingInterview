@@ -1,0 +1,13 @@
+
+public class Solution {
+	
+	public void replaceSpace(String inputStr) {
+		char[] outputStrArray = inputStr.toCharArray();
+		for(int i = 0; i < inputStr.length(); i++) {
+			if(inputStr.charAt(i) == ' ') {
+				inputStr.R
+			}
+		}
+	}
+
+}
